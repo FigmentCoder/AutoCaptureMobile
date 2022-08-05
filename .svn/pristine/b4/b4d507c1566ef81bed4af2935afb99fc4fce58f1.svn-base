@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "YzNgq6XQcUAdgyee+ALiCjLjlV/ePIVRFTG0A8tqTcjY/yA47y2/lrSTiwlyMDwo2F+/Jsdmv9dRinZtVy3wBQ==",
+  "success": true,
+  "projectFilePath": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Tests.Unit.Domain/AutoCaptureMobile.Tests.Unit.Domain.fsproj",
+  "expectedPackageFiles": [
+    "/Users/quillannugent/.nuget/packages/fscheck/2.14.3/fscheck.2.14.3.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/fscheck.xunit/2.14.3/fscheck.xunit.2.14.3.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/fsharp.data/3.3.3/fsharp.data.3.3.3.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/xunit/2.4.1/xunit.2.4.1.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/xunit.abstractions/2.0.3/xunit.abstractions.2.0.3.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/xunit.analyzers/0.10.0/xunit.analyzers.0.10.0.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/xunit.assert/2.4.1/xunit.assert.2.4.1.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/xunit.core/2.4.1/xunit.core.2.4.1.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/xunit.extensibility.core/2.4.1/xunit.extensibility.core.2.4.1.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/xunit.extensibility.execution/2.4.1/xunit.extensibility.execution.2.4.1.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/xunit.runner.visualstudio/2.4.3/xunit.runner.visualstudio.2.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,517 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "FsCheck/2.14.3": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.2.3"
+        },
+        "compile": {
+          "lib/net452/FsCheck.dll": {}
+        },
+        "runtime": {
+          "lib/net452/FsCheck.dll": {}
+        }
+      },
+      "FsCheck.Xunit/2.14.3": {
+        "type": "package",
+        "dependencies": {
+          "FsCheck": "[2.14.3]",
+          "xunit.extensibility.execution": "[2.2.0, 3.0.0)"
+        },
+        "compile": {
+          "lib/net452/FsCheck.Xunit.dll": {}
+        },
+        "runtime": {
+          "lib/net452/FsCheck.Xunit.dll": {}
+        }
+      },
+      "FSharp.Core/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "FSharp.Data/3.3.3": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.0.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net45/FSharp.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net45/FSharp.Data.dll": {}
+        }
+      },
+      "xunit/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "xunit.analyzers": "0.10.0",
+          "xunit.assert": "[2.4.1]",
+          "xunit.core": "[2.4.1]"
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net35/xunit.abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net35/xunit.abstractions.dll": {}
+        }
+      },
+      "xunit.analyzers/0.10.0": {
+        "type": "package"
+      },
+      "xunit.assert/2.4.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.1/xunit.assert.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.assert.dll": {}
+        }
+      },
+      "xunit.core/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.4.1]",
+          "xunit.extensibility.execution": "[2.4.1]"
+        },
+        "build": {
+          "build/xunit.core.props": {},
+          "build/xunit.core.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/xunit.core.props": {},
+          "buildMultiTargeting/xunit.core.targets": {}
+        }
+      },
+      "xunit.extensibility.core/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/net452/xunit.core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/xunit.core.dll": {}
+        }
+      },
+      "xunit.extensibility.execution/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net452/xunit.execution.desktop.dll": {}
+        },
+        "runtime": {
+          "lib/net452/xunit.execution.desktop.dll": {}
+        }
+      },
+      "xunit.runner.visualstudio/2.4.3": {
+        "type": "package",
+        "build": {
+          "build/net452/xunit.runner.visualstudio.props": {}
+        }
+      },
+      "AutoCaptureMobile.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FSharp.Core": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AutoCaptureMobile.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutoCaptureMobile.Common.dll": {}
+        }
+      },
+      "AutoCaptureMobile.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "AutoCaptureMobile.Common": "1.0.0",
+          "FSharp.Core": "5.0.0",
+          "FSharp.Data": "3.3.3"
+        },
+        "compile": {
+          "bin/placeholder/AutoCaptureMobile.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AutoCaptureMobile.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FsCheck/2.14.3": {
+      "sha512": "MA1erHuUGjCf6BUOOKaGoiGI+nfSQc+0GCvuJx4qK9SPcrPoTJyirsrx40ywvixcSKqn9sY8Va9fhu6kS/M4dQ==",
+      "type": "package",
+      "path": "fscheck/2.14.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fscheck.2.14.3.nupkg.sha512",
+        "fscheck.nuspec",
+        "lib/net452/FsCheck.dll",
+        "lib/net452/FsCheck.xml",
+        "lib/netstandard1.0/FsCheck.dll",
+        "lib/netstandard1.0/FsCheck.xml",
+        "lib/netstandard1.6/FsCheck.dll",
+        "lib/netstandard1.6/FsCheck.xml",
+        "lib/netstandard2.0/FsCheck.dll",
+        "lib/netstandard2.0/FsCheck.xml"
+      ]
+    },
+    "FsCheck.Xunit/2.14.3": {
+      "sha512": "7m7U45SS4aa91OgIwPG2dMa8+pU0okgdr0UCS1vbQSxXHxG7B8XC46bzRw12V49pyYPyUxRGt1mLmdOP/GPQPA==",
+      "type": "package",
+      "path": "fscheck.xunit/2.14.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fscheck.xunit.2.14.3.nupkg.sha512",
+        "fscheck.xunit.nuspec",
+        "lib/net452/FsCheck.Xunit.dll",
+        "lib/net452/FsCheck.Xunit.xml",
+        "lib/netstandard1.6/FsCheck.Xunit.dll",
+        "lib/netstandard1.6/FsCheck.Xunit.xml",
+        "lib/netstandard2.0/FsCheck.Xunit.dll",
+        "lib/netstandard2.0/FsCheck.Xunit.xml"
+      ]
+    },
+    "FSharp.Core/5.0.0": {
+      "sha512": "iHoYXA0VaSQUONGENB1aVafjDDZDZpwu39MtaRCTrmwFW/cTcK0b2yKNVYneFHJMc3ChtsSoM9lNtJ1dYXkHfA==",
+      "type": "package",
+      "path": "fsharp.core/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "fsharp.core.5.0.0.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "FSharp.Data/3.3.3": {
+      "sha512": "O+fV9oPNktESFngvTzPIQUhTdQGNX0XYXToL1l7+3jE46Y7tp8Ux4FkTMzj8wa8QV07l4sY4pJ7bBppGDi3Lsw==",
+      "type": "package",
+      "path": "fsharp.data/3.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.data.3.3.3.nupkg.sha512",
+        "fsharp.data.nuspec",
+        "lib/net45/FSharp.Data.DesignTime.dll",
+        "lib/net45/FSharp.Data.DesignTime.pdb",
+        "lib/net45/FSharp.Data.dll",
+        "lib/net45/FSharp.Data.pdb",
+        "lib/net45/FSharp.Data.xml",
+        "lib/netstandard2.0/FSharp.Data.DesignTime.dll",
+        "lib/netstandard2.0/FSharp.Data.DesignTime.pdb",
+        "lib/netstandard2.0/FSharp.Data.dll",
+        "lib/netstandard2.0/FSharp.Data.pdb",
+        "lib/netstandard2.0/FSharp.Data.xml",
+        "linqpad-samples/GitHub.linq",
+        "linqpad-samples/Jira.linq",
+        "linqpad-samples/TypeInference.linq",
+        "typeproviders/fsharp41/net45/FSharp.Data.DesignTime.dll",
+        "typeproviders/fsharp41/net45/FSharp.Data.DesignTime.pdb",
+        "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.dll",
+        "typeproviders/fsharp41/netstandard2.0/FSharp.Data.DesignTime.pdb"
+      ]
+    },
+    "xunit/2.4.1": {
+      "sha512": "XNR3Yz9QTtec16O0aKcO6+baVNpXmOnPUxDkCY97J+8krUYxPvXT1szYYEUdKk4sB8GOI2YbAjRIOm8ZnXRfzQ==",
+      "type": "package",
+      "path": "xunit/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "xunit.2.4.1.nupkg.sha512",
+        "xunit.nuspec"
+      ]
+    },
+    "xunit.abstractions/2.0.3": {
+      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
+      "type": "package",
+      "path": "xunit.abstractions/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/xunit.abstractions.dll",
+        "lib/net35/xunit.abstractions.xml",
+        "lib/netstandard1.0/xunit.abstractions.dll",
+        "lib/netstandard1.0/xunit.abstractions.xml",
+        "lib/netstandard2.0/xunit.abstractions.dll",
+        "lib/netstandard2.0/xunit.abstractions.xml",
+        "xunit.abstractions.2.0.3.nupkg.sha512",
+        "xunit.abstractions.nuspec"
+      ]
+    },
+    "xunit.analyzers/0.10.0": {
+      "sha512": "4/IDFCJfIeg6bix9apmUtIMwvOsiwqdEexeO/R2D4GReIGPLIRODTpId/l4LRSrAJk9lEO3Zx1H0Zx6uohJDNg==",
+      "type": "package",
+      "path": "xunit.analyzers/0.10.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/xunit.analyzers.dll",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "xunit.analyzers.0.10.0.nupkg.sha512",
+        "xunit.analyzers.nuspec"
+      ]
+    },
+    "xunit.assert/2.4.1": {
+      "sha512": "O/Oe0BS5RmSsM+LQOb041TzuPo5MdH2Rov+qXGS37X+KFG1Hxz7kopYklM5+1Y+tRGeXrOx5+Xne1RuqLFQoyQ==",
+      "type": "package",
+      "path": "xunit.assert/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/xunit.assert.dll",
+        "lib/netstandard1.1/xunit.assert.xml",
+        "xunit.assert.2.4.1.nupkg.sha512",
+        "xunit.assert.nuspec"
+      ]
+    },
+    "xunit.core/2.4.1": {
+      "sha512": "Zsj5OMU6JasNGERXZy8s72+pcheG6Q15atS5XpZXqAtULuyQiQ6XNnUsp1gyfC6WgqScqMvySiEHmHcOG6Eg0Q==",
+      "type": "package",
+      "path": "xunit.core/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/xunit.core.props",
+        "build/xunit.core.targets",
+        "buildMultiTargeting/xunit.core.props",
+        "buildMultiTargeting/xunit.core.targets",
+        "xunit.core.2.4.1.nupkg.sha512",
+        "xunit.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.core/2.4.1": {
+      "sha512": "yKZKm/8QNZnBnGZFD9SewkllHBiK0DThybQD/G4PiAmQjKtEZyHi6ET70QPU9KtSMJGRYS6Syk7EyR2EVDU4Kg==",
+      "type": "package",
+      "path": "xunit.extensibility.core/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/xunit.core.dll",
+        "lib/net452/xunit.core.dll.tdnet",
+        "lib/net452/xunit.core.xml",
+        "lib/net452/xunit.runner.tdnet.dll",
+        "lib/net452/xunit.runner.utility.net452.dll",
+        "lib/netstandard1.1/xunit.core.dll",
+        "lib/netstandard1.1/xunit.core.xml",
+        "xunit.extensibility.core.2.4.1.nupkg.sha512",
+        "xunit.extensibility.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.execution/2.4.1": {
+      "sha512": "7e/1jqBpcb7frLkB6XDrHCGXAbKN4Rtdb88epYxCSRQuZDRW8UtTfdTEVpdTl8s4T56e07hOBVd4G0OdCxIY2A==",
+      "type": "package",
+      "path": "xunit.extensibility.execution/2.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/xunit.execution.desktop.dll",
+        "lib/net452/xunit.execution.desktop.xml",
+        "lib/netstandard1.1/xunit.execution.dotnet.dll",
+        "lib/netstandard1.1/xunit.execution.dotnet.xml",
+        "xunit.extensibility.execution.2.4.1.nupkg.sha512",
+        "xunit.extensibility.execution.nuspec"
+      ]
+    },
+    "xunit.runner.visualstudio/2.4.3": {
+      "sha512": "kZZSmOmKA8OBlAJaquPXnJJLM9RwQ27H7BMVqfMLUcTi9xHinWGJiWksa3D4NEtz0wZ/nxd2mogObvBgJKCRhQ==",
+      "type": "package",
+      "path": "xunit.runner.visualstudio/2.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "build/net452/xunit.abstractions.dll",
+        "build/net452/xunit.runner.reporters.net452.dll",
+        "build/net452/xunit.runner.utility.net452.dll",
+        "build/net452/xunit.runner.visualstudio.props",
+        "build/net452/xunit.runner.visualstudio.testadapter.dll",
+        "build/netcoreapp2.1/xunit.abstractions.dll",
+        "build/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll",
+        "build/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll",
+        "build/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll",
+        "build/netcoreapp2.1/xunit.runner.visualstudio.props",
+        "build/uap10.0.16299/xunit.runner.reporters.netstandard15.dll",
+        "build/uap10.0.16299/xunit.runner.utility.netstandard15.dll",
+        "build/uap10.0.16299/xunit.runner.utility.uwp10.dll",
+        "build/uap10.0.16299/xunit.runner.utility.uwp10.pri",
+        "build/uap10.0.16299/xunit.runner.visualstudio.props",
+        "build/uap10.0.16299/xunit.runner.visualstudio.targets",
+        "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.dll",
+        "build/uap10.0.16299/xunit.runner.visualstudio.uwp.testadapter.pri",
+        "logo-512-transparent.png",
+        "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
+        "xunit.runner.visualstudio.nuspec"
+      ]
+    },
+    "AutoCaptureMobile.Common/1.0.0": {
+      "type": "project",
+      "path": "../AutoCaptureMobile.Common/AutoCaptureMobile.Common.fsproj",
+      "msbuildProject": "../AutoCaptureMobile.Common/AutoCaptureMobile.Common.fsproj"
+    },
+    "AutoCaptureMobile.Domain/1.0.0": {
+      "type": "project",
+      "path": "../AutoCaptureMobile.Domain/AutoCaptureMobile.Domain.fsproj",
+      "msbuildProject": "../AutoCaptureMobile.Domain/AutoCaptureMobile.Domain.fsproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "AutoCaptureMobile.Common >= 1.0.0",
+      "AutoCaptureMobile.Domain >= 1.0.0",
+      "FSharp.Core >= 5.0.0",
+      "FsCheck.Xunit >= 2.14.3",
+      "xunit >= 2.4.1",
+      "xunit.runner.visualstudio >= 2.4.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/quillannugent/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Tests.Unit.Domain/AutoCaptureMobile.Tests.Unit.Domain.fsproj",
+      "projectName": "AutoCaptureMobile.Tests.Unit.Domain",
+      "projectPath": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Tests.Unit.Domain/AutoCaptureMobile.Tests.Unit.Domain.fsproj",
+      "packagesPath": "/Users/quillannugent/.nuget/packages/",
+      "outputPath": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Tests.Unit.Domain/obj/",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "/Users/quillannugent/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {
+            "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Common/AutoCaptureMobile.Common.fsproj": {
+              "projectPath": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Common/AutoCaptureMobile.Common.fsproj"
+            },
+            "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Domain/AutoCaptureMobile.Domain.fsproj": {
+              "projectPath": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Domain/AutoCaptureMobile.Domain.fsproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[5.0.0, )",
+            "generatePathProperty": true
+          },
+          "FsCheck.Xunit": {
+            "target": "Package",
+            "version": "[2.14.3, )",
+            "generatePathProperty": true
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.4.1, )",
+            "generatePathProperty": true
+          },
+          "xunit.runner.visualstudio": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.4.3, )",
+            "generatePathProperty": true
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

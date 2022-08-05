@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dbEbv84vUtRECIbdyDbtMk7rJP2HJygmOpyzsCKUIuE4Fv3HfbqQ6UgfGzolUw1qhloiflCaLfvV/LcgVOz0gg==",
+  "success": true,
+  "projectFilePath": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Tests.Unit.Domain/AutoCaptureMobile.Tests.Infrastructure/AutoCaptureMobile.Tests.Infrastructure.fsproj",
+  "expectedPackageFiles": [
+    "/Users/quillannugent/.nuget/packages/fsharp.core/5.0.0/fsharp.core.5.0.0.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/fsharp.data/3.3.3/fsharp.data.3.3.3.nupkg.sha512",
+    "/Users/quillannugent/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

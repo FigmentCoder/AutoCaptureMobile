@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Common/AutoCaptureMobile.Common.fsproj": {}
+  },
+  "projects": {
+    "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Common/AutoCaptureMobile.Common.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Common/AutoCaptureMobile.Common.fsproj",
+        "projectName": "AutoCaptureMobile.Common",
+        "projectPath": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Common/AutoCaptureMobile.Common.fsproj",
+        "packagesPath": "/Users/quillannugent/.nuget/packages/",
+        "outputPath": "/Users/quillannugent/Projects/AutoCapture-5-3-2021/AutoCaptureMobile.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/quillannugent/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true,
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

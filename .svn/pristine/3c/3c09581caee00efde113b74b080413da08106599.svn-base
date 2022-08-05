@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="5.0.0" />
+    <!-- workaround for VSMac bug https://github.com/mono/monodevelop/pull/5137 -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Pages\Helpers.fs" />
+    <Compile Include="Pages\EstimatePage.fs" />
+    <Compile Include="Pages\ScanVinPage.fs" />
+    <Compile Include="Pages\MakeListPage.fs" />
+    <Compile Include="Pages\ModelListPage.fs" />
+    <Compile Include="Pages\YearListPage.fs" />
+    <Compile Include="Pages\CustomerPage.fs" />
+    <Compile Include="Pages\LocationPage.fs" />
+    <Compile Include="Pages\CountryListPage.fs" />
+    <Compile Include="Pages\StateListPage.fs" />
+    <Compile Include="Pages\CalculatePage.fs" />
+    <Compile Include="Pages\NotesPhotosPage.fs" />
+    <Compile Include="Pages\HistoryPage.fs" />
+    <Compile Include="Pages\ConfigPage.fs" />
+    <Compile Include="Pages\HomePage.fs" />
+    <Compile Include="Pages\MainPage.fs" />
+    <Compile Include="Pages\LoginPage.fs" />
+    <Compile Include="Style.fs" />
+    <Compile Include="App.fs" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1687" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Fabulous.XamarinForms" Version="0.60.0" />
+    <PackageReference Include="Fabulous.XamarinForms.LiveUpdate" Version="0.60.0" />
+    <PackageReference Include="FSharp.Core" Version="5.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <ProjectReference Include="..\AutoCaptureMobile.Domain\AutoCaptureMobile.Domain.fsproj" />
+    <ProjectReference Include="..\AutoCaptureMobile.Tests.Unit.Domain\AutoCaptureMobile.Tests.Infrastructure\AutoCaptureMobile.Tests.Infrastructure.fsproj" />
+  </ItemGroup>
+</Project>
