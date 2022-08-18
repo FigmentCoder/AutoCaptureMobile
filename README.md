@@ -1,2 +1,2 @@
 # AutoCaptureMobile
-Proof of concept for app to capture VIN barcodes.
+Proof of concept for application for capturing automobile VIN barcodes.
